@@ -1,8 +1,10 @@
 # SQL
 Home Works
  1. Вывести все поля и все строки.
+ 2. 
 select * from qa_users;
  2. Вывести всех студентов в таблице
+ 3. 
 select * from qa_users;
  3. Вывести только Id пользователей
 select user_id from qa_users;
