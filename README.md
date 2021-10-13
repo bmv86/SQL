@@ -1,5 +1,5 @@
 # SQL
-Home Works
+ **`Home Works`**
 
 Подключится к 
 Host: 159.69.151.133
@@ -112,7 +112,9 @@ from qa_users
 order by created_on desc;
 
 
-<b> SQL HomeWork 2. Joins</b> 
+
+
+**` SQL HomeWork 2. Joins`** 
 
 Подключится к 
 Host: 159.69.151.133
@@ -298,7 +300,7 @@ full join roles on re.role_id = roles.id
 join employees_salary as es on re.employee_id = es.employee_id
 where roles.role_name like '%Junior%';
 
- 22. Вывести сумму зарплат JS разработчиков</b> 
+ <b> 22. Вывести сумму зарплат JS разработчиков</b> 
 
 select sum (es.monthly_salary) as JS_Salary
 from employees as e 
