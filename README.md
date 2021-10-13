@@ -1,5 +1,13 @@
 # SQL
 Home Works
+
+Подключится к 
+Host: 159.69.151.133
+Port: 5056
+DB: qa_db_2
+User: user_22_34
+Pass: 123
+
  1. Вывести все поля и все строки: 
 select * from qa_users;
  2. Вывести всех студентов в таблице: 
@@ -79,11 +87,12 @@ SQL HomeWork 2. Joins
 Host: 159.69.151.133
 Port: 5056
 DB: qa_db_2
-User: user_22_x
+User: user_22_34
 Pass: 123
 
 
  1. Вывести всех работников чьи зарплаты есть в базе, вместе с зарплатами.
+ 2. 
 select e.employee_name, es.monthly_salary 
 from employees as e 
 join employees_salary as es 
