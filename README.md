@@ -1,12 +1,18 @@
 # SQL
  **`Home Works`**
 
-Подключится к 
+Подключится к
+
 Host: 159.69.151.133
+
 Port: 5056
+
 DB: qa_db_2
+
 User: user_22_34
+
 Pass: 123
+
 
  <b> 1. Вывести все поля и все строки: </b>
 	select * from qa_users;
